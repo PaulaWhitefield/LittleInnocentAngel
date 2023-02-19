@@ -4,7 +4,7 @@
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         
-        <title>{% if title %}{{ title }} - {% endif %}Little Innocent Angel</title>
+        <title><?php if( isset( $page_title ) && $page_title ) echo $page_title . " - "; ?>Little Innocent Angel</title>
         
         <link rel="stylesheet" type="text/css" href="https://w3css.staticly.ict.rocks/4.15/w3.css">
         <link rel="stylesheet" type="text/css" href="https://w3css.staticly.ict.rocks/w3-colors-metro.css">
@@ -21,7 +21,7 @@
         
         <section class="w3-metro-darken">
             <div class="w3-content w3-padding w3-padding-64">
-                {{ content | safe }}
+                <?php if( isset( $page_content ) && is_callable( $page_content ) ) $page_content(); ?>
             </div>
         </section>
         

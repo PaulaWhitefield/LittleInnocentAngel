@@ -6,9 +6,9 @@
         
         <title><?php if( isset( $page_title ) && $page_title ) echo $page_title . " - "; ?>Little Innocent Angel</title>
         
-        <link rel="stylesheet" type="text/css" href="https://w3css.storage.dah5.me.uk/4.15/w3.css">
-        <link rel="stylesheet" type="text/css" href="https://w3css.storage.dah5.me.uk/w3-colors-metro.css">
-        <link rel="stylesheet" type="text/css" href="https://webfonts.storage.dah5.me.uk/nunito/nunito.css">
+        <link rel="stylesheet" type="text/css" href="https://w3css.storage.dah5.com/4.15/w3.css">
+        <link rel="stylesheet" type="text/css" href="https://w3css.storage.dah5.com/w3-colors-metro.css">
+        <link rel="stylesheet" type="text/css" href="https://webfonts.storage.dah5.com/nunito/nunito.css">
     </head>
     
     <body class="w3-black">

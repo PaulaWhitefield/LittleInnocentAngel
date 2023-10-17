@@ -1,3 +1,6 @@
+---
+content_placeholder: {{ content }}
+---
 <!DOCTYPE html>
 <html lang="en">
     <head>
@@ -6,9 +9,9 @@
         
         <title><?php if( isset( $page_title ) && $page_title ) echo $page_title . " - "; ?>Little Innocent Angel</title>
         
-        <link rel="stylesheet" type="text/css" href="https://w3css.storage.dah5.com/4.15/w3.css">
-        <link rel="stylesheet" type="text/css" href="https://w3css.storage.dah5.com/w3-colors-metro.css">
-        <link rel="stylesheet" type="text/css" href="https://webfonts.storage.dah5.com/nunito/nunito.css">
+        <link rel="stylesheet" type="text/css" href="/assets/w3css/4.15/w3.css">
+        <link rel="stylesheet" type="text/css" href="/assets/w3css/w3-colors-metro.css">
+        <link rel="stylesheet" type="text/css" href="/assets/webfonts/nunito/nunito.css">
     </head>
     
     <body class="w3-black">
@@ -21,14 +24,14 @@
         
         <section class="w3-metro-darken">
             <div class="w3-content w3-padding w3-padding-64">
-                <?php if( isset( $page_content ) && is_callable( $page_content ) ) $page_content(); ?>
+                {{ content }}
             </div>
         </section>
         
         <footer>
             <div class="w3-content w3-padding w3-text-gray w3-center w3-small">
-                <p>Copyright &copy; <a href="https://www.angelicahenderson.ict.rocks" target="_blank">Angelica Henderson</a>.</p>
-                <p class="w3-opacity">Designed and developed by my best friend <a href="https://www.paulawhitefield.ict.rocks" target="_blank"><b>Paula Whitefield</b></a>.</p>
+                <p>Copyright &copy; <a href="https://angelicahenderson.sites.bypw.me" target="_blank">Angelica Henderson</a>.</p>
+                <p class="w3-opacity">Site by <a href="https://www.paulawhitefield.com" target="_blank"><b>Paula Whitefield</b></a>.</p>
             </div>
         </footer>
     </body>

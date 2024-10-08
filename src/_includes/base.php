@@ -30,7 +30,7 @@ content_placeholder: {{ content }}
         
         <footer>
             <div class="w3-content w3-padding w3-text-gray w3-center w3-small">
-                <p>Copyright &copy; <a href="https://angelicahenderson.indieweb.io" target="_blank">Angelica Henderson</a>.</p>
+                <p>Copyright &copy; <a href="https://angelicahenderson.bypw.me" target="_blank">Angelica Henderson</a>.</p>
                 <p class="w3-opacity">Site by <a href="https://www.paulawhitefield.com" target="_blank"><b>Paula Whitefield</b></a>.</p>
             </div>
         </footer>

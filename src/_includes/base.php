@@ -30,8 +30,8 @@ content_placeholder: {{ content }}
         
         <footer>
             <div class="w3-content w3-padding w3-text-gray w3-center w3-small">
-                <p>Copyright &copy; <a href="https://angelicahenderson.weburl.net" target="_blank">Angelica Henderson</a>.</p>
-                <p class="w3-opacity">Site by <a href="https://paulawhitefield.weburl.net" target="_blank"><b>Paula Whitefield</b></a>.</p>
+                <p>Copyright &copy; <a href="https://weburl.net/angelicahenderson" target="_blank">Angelica Henderson</a>.</p>
+                <p class="w3-opacity">Site by <a href="https://weburl.net/paulawhitefield" target="_blank"><b>Paula Whitefield</b></a>.</p>
             </div>
         </footer>
     </body>
